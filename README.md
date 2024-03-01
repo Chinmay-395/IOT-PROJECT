@@ -41,3 +41,6 @@ Features <br>
 **Actuation:** Based on the processed data, the Arduino calculates the necessary adjustments to counteract the unwanted movements. It then sends commands to the servo motors to adjust the spoon's position accordingly. For instance, if the spoon is tilting forward due to a tremor, one servo motor might be activated to tilt the spoon back to a level position.
 
 **Feedback Loop:** The system continuously monitors the orientation and motion of the spoon through the IMU, adjusting the servo motors as needed. This feedback loop allows the spoon to dynamically stabilize itself in real-time, compensating for ongoing tremors or sudden movements.
+
+# Real-world Application
+In practice, this setup allows individuals with tremors or other motor control issues to eat more easily, as the spoon can keep its bowl stable and level, reducing spills. The combination of the IMU for sensing and servo motors for actuation, all controlled by the microcontroller, makes for a compact, efficient system that can be implemented in everyday assistive devices.
